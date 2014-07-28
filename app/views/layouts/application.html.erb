@@ -8,8 +8,14 @@
 </head>
 <body>
 
-	<a href="/static_pages/about">about</a>
-	<a href="/static_pages/contact">contact</a>
+	<div class="pure-menu pure-menu-open pure-menu-horizontal pure-u">
+    <ul>
+    	<li><a href="/welcome/index">Home</a></li>
+      <li><a href="/static_pages/about">About</a></li>
+      <li><a href="/static_pages/contact">Contact</a></li>
+    </ul>
+	</div>
+
 <%= yield %>
 
 </body>
